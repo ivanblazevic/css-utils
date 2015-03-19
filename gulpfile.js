@@ -11,7 +11,7 @@ gulp.task('less', function() {
 
 gulp.task('minify-css', function() {
   return gulp.src('build/css-utils.css')
-    .pipe(minifyCSS())
+    .pipe(minifyCSS({keepSpecialComments:"1"}))
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('build'))
 });
