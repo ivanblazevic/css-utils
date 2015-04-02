@@ -2,7 +2,7 @@
  * CSS-Utils
  * @version v0.0.1 - 2015-03-19
  * @author Ivan Blazevic <iblazevi@gmail.com>
- * @license MIT License, http://www.opensource.org/licenses/MIT
+ * @license MIT License, https://github.com/ivanblazevic/css-utils/blob/master/README.md
  */
 .m-1 {
   margin: 1px;
@@ -34,9 +34,6 @@
 .p-l-1 {
   padding-left: 1px;
 }
-.w-1 {
-  width: 1px;
-}
 .m-10 {
   margin: 10px;
 }
@@ -66,9 +63,6 @@
 }
 .p-l-10 {
   padding-left: 10px;
-}
-.w-10 {
-  width: 10px;
 }
 .m-120 {
   margin: 120px;
@@ -100,9 +94,6 @@
 .p-l-120 {
   padding-left: 120px;
 }
-.w-120 {
-  width: 120px;
-}
 .m-2 {
   margin: 2px;
 }
@@ -132,9 +123,6 @@
 }
 .p-l-2 {
   padding-left: 2px;
-}
-.w-2 {
-  width: 2px;
 }
 .m-20 {
   margin: 20px;
@@ -166,9 +154,6 @@
 .p-l-20 {
   padding-left: 20px;
 }
-.w-20 {
-  width: 20px;
-}
 .m-140 {
   margin: 140px;
 }
@@ -198,9 +183,6 @@
 }
 .p-l-140 {
   padding-left: 140px;
-}
-.w-140 {
-  width: 140px;
 }
 .m-3 {
   margin: 3px;
@@ -232,9 +214,6 @@
 .p-l-3 {
   padding-left: 3px;
 }
-.w-3 {
-  width: 3px;
-}
 .m-30 {
   margin: 30px;
 }
@@ -264,9 +243,6 @@
 }
 .p-l-30 {
   padding-left: 30px;
-}
-.w-30 {
-  width: 30px;
 }
 .m-160 {
   margin: 160px;
@@ -298,9 +274,6 @@
 .p-l-160 {
   padding-left: 160px;
 }
-.w-160 {
-  width: 160px;
-}
 .m-4 {
   margin: 4px;
 }
@@ -330,9 +303,6 @@
 }
 .p-l-4 {
   padding-left: 4px;
-}
-.w-4 {
-  width: 4px;
 }
 .m-40 {
   margin: 40px;
@@ -364,9 +334,6 @@
 .p-l-40 {
   padding-left: 40px;
 }
-.w-40 {
-  width: 40px;
-}
 .m-180 {
   margin: 180px;
 }
@@ -396,9 +363,6 @@
 }
 .p-l-180 {
   padding-left: 180px;
-}
-.w-180 {
-  width: 180px;
 }
 .m-5 {
   margin: 5px;
@@ -430,9 +394,6 @@
 .p-l-5 {
   padding-left: 5px;
 }
-.w-5 {
-  width: 5px;
-}
 .m-50 {
   margin: 50px;
 }
@@ -462,9 +423,6 @@
 }
 .p-l-50 {
   padding-left: 50px;
-}
-.w-50 {
-  width: 50px;
 }
 .m-200 {
   margin: 200px;
@@ -496,9 +454,6 @@
 .p-l-200 {
   padding-left: 200px;
 }
-.w-200 {
-  width: 200px;
-}
 .m-6 {
   margin: 6px;
 }
@@ -528,9 +483,6 @@
 }
 .p-l-6 {
   padding-left: 6px;
-}
-.w-6 {
-  width: 6px;
 }
 .m-60 {
   margin: 60px;
@@ -562,9 +514,6 @@
 .p-l-60 {
   padding-left: 60px;
 }
-.w-60 {
-  width: 60px;
-}
 .m-220 {
   margin: 220px;
 }
@@ -594,9 +543,6 @@
 }
 .p-l-220 {
   padding-left: 220px;
-}
-.w-220 {
-  width: 220px;
 }
 .m-7 {
   margin: 7px;
@@ -628,9 +574,6 @@
 .p-l-7 {
   padding-left: 7px;
 }
-.w-7 {
-  width: 7px;
-}
 .m-70 {
   margin: 70px;
 }
@@ -660,9 +603,6 @@
 }
 .p-l-70 {
   padding-left: 70px;
-}
-.w-70 {
-  width: 70px;
 }
 .m-240 {
   margin: 240px;
@@ -694,9 +634,6 @@
 .p-l-240 {
   padding-left: 240px;
 }
-.w-240 {
-  width: 240px;
-}
 .m-8 {
   margin: 8px;
 }
@@ -726,9 +663,6 @@
 }
 .p-l-8 {
   padding-left: 8px;
-}
-.w-8 {
-  width: 8px;
 }
 .m-80 {
   margin: 80px;
@@ -760,9 +694,6 @@
 .p-l-80 {
   padding-left: 80px;
 }
-.w-80 {
-  width: 80px;
-}
 .m-260 {
   margin: 260px;
 }
@@ -792,9 +723,6 @@
 }
 .p-l-260 {
   padding-left: 260px;
-}
-.w-260 {
-  width: 260px;
 }
 .m-9 {
   margin: 9px;
@@ -826,9 +754,6 @@
 .p-l-9 {
   padding-left: 9px;
 }
-.w-9 {
-  width: 9px;
-}
 .m-90 {
   margin: 90px;
 }
@@ -858,9 +783,6 @@
 }
 .p-l-90 {
   padding-left: 90px;
-}
-.w-90 {
-  width: 90px;
 }
 .m-280 {
   margin: 280px;
@@ -892,9 +814,6 @@
 .p-l-280 {
   padding-left: 280px;
 }
-.w-280 {
-  width: 280px;
-}
 .m-10 {
   margin: 10px;
 }
@@ -924,9 +843,6 @@
 }
 .p-l-10 {
   padding-left: 10px;
-}
-.w-10 {
-  width: 10px;
 }
 .m-100 {
   margin: 100px;
@@ -958,9 +874,6 @@
 .p-l-100 {
   padding-left: 100px;
 }
-.w-100 {
-  width: 100px;
-}
 .m-300 {
   margin: 300px;
 }
@@ -990,7 +903,4 @@
 }
 .p-l-300 {
   padding-left: 300px;
-}
-.w-300 {
-  width: 300px;
 }
