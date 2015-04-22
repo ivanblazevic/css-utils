@@ -8,7 +8,7 @@
 
 .generate(10);
 
-.mixin(@i, @n) {
+.mixin(@i) {
   
   .m-@{i} {
     margin: (1px * @i);
@@ -44,9 +44,11 @@
 
 }
 
+.mixin(0);
+
 .generate(@n, @i: 1) when (@i =< @n) {
-  .mixin((@i * 1), @n);
-  .mixin((@i * 10), @n);
-  .mixin(((@i * 20) + 100), @n);
+  .mixin(@i * 1);
+  .mixin(@i * 10);
+  .mixin((@i * 20) + 100);
   .generate(@n, (@i + 1));
 }
