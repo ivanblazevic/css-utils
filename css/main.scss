@@ -8,6 +8,35 @@
     src: url("myraid.woff") format("woff"),
 }
 
+.r {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+[class*='c-'] {
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+    float: left;
+}
+
+/* 12 columns */
+.c-1-12 { width: 8.3333%; }
+.c-2-12 { width: 16.6666%; }
+.c-3-12 { width: 24.9999%; }
+.c-4-12 { width: 33.3332%; }
+.c-5-12 { width: 41.6665%; }
+.c-6-12 { width: 49.9998%; }
+.c-7-12 { width: 58.3331%; }
+.c-8-12 { width: 66.6664%; }
+.c-9-12 { width: 74.9997%; }
+.c-10-12 { width: 83.333%; }
+.c-11-12 { width: 91.6663%; }
+
 
 // Our variables
 $base-font-family: Myraid, Helvetica, Arial, sans-serif;
