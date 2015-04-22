@@ -1,3 +1,6 @@
+@font-face {
+  font-family: "Myraid";
+  src: url("myraid.woff") format("woff"); }
 /**
  * Reset some basic elements
  */
@@ -11,7 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Myraid, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -149,16 +152,17 @@ pre {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  position: relative; }
+  position: relative;
+  background: #5B6332; }
 
 .site-title {
-  font-size: 26px;
+  font-size: 50px;
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: #E4AE2C; }
 
 .site-nav {
   float: right;
@@ -166,7 +170,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #AEC458;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
