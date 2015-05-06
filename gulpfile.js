@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
     less = require('gulp-less'),
+    concat = require('gulp-concat'),
     minifyCSS = require('gulp-minify-css'),
     rename = require('gulp-rename');
 
@@ -17,3 +18,9 @@ gulp.task('minify-css', function() {
 });
 
 gulp.task('default', ['less','minify-css']);
+
+gulp.task('build', function() {
+  return gulp.src(['source/*.less'])
+    .pipe(concat('less-utils.less'))
+    .pipe(gulp.dest('build'))
+});
