@@ -1,5 +1,5 @@
 /*!
- * CSS-Utils
+ * LESS-Utils
  * @version v0.0.1 - 2015-03-19
  * @author Ivan Blazevic <iblazevi@gmail.com>
  * @license MIT License, https://github.com/ivanblazevic/css-utils/blob/master/README.md
@@ -51,46 +51,6 @@
     .mixin((@i * 20) + 100);
     .generate(@n, (@i + 1));
 }
-
-
-.scroll-table(@columns, @columnsNo) {
-
-    .mixin(@i) {
-        @width: extract(@columns, @i);
-        td:nth-child(@{i}), th:nth-child(@{i}) { 
-            width: @width * 1%; 
-        }
-    }
-
-    .generate(@n, @i: 1) when (@i =< @n) {
-        .mixin(@i);
-        .generate(@n, (@i + 1));
-    }
-    .generate(@columnsNo);
-
-    thead {
-        tr {
-            /* we assume that on most of browsers scollbar is 17px width 
-             * http://www.textfixer.com/tutorials/browser-scrollbar-width.php
-             */
-            width: calc(~"100% - 17px");
-            display: table;
-        }
-    }
-
-    tbody {
-        display: block;
-        overflow: auto;
-        width: 100%;
-        tr {
-            width: 100%;
-            display: inline-table;
-        }
-    }
-
-}
-
-
 .scroll-table(@columns, @columnsNo) {
 
     .mixin(@i) {
