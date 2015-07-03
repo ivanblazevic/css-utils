@@ -5,22 +5,17 @@ var gulp = require('gulp'),
     rename = require('gulp-rename');
 
 gulp.task('less', function() {
-    gulp.src('css-utils.less')
+    gulp.src('source/margins-paddings.less')
         .pipe(less())
+        .pipe(rename('css-utils.css'))
         .pipe(gulp.dest('build'));
 });
 
-gulp.task('minify-css', function() {
+gulp.task('minify-css', ['less'], function() {
   return gulp.src('build/css-utils.css')
     .pipe(minifyCSS({keepSpecialComments:"1"}))
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('build'))
 });
 
-gulp.task('default', ['less','minify-css']);
-
-gulp.task('build', function() {
-  return gulp.src(['source/*.less'])
-    .pipe(concat('less-utils.less'))
-    .pipe(gulp.dest('build'))
-});
+gulp.task('default', ['minify-css']);
